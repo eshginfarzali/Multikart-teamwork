@@ -1,0 +1,1680 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+}
+
+#chirsmas{
+  
+    height: 100vh;
+    background-image: url("https://multikart-react.vercel.app/_next/static/images/1-cc5222dcd98b319c33001a4a75c5cab1.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+
+.pre-navbar {
+    /* background-color: #F8F8F8; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .8px;
+}
+
+
+.welcome-number {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+
+}
+.whishlist-account {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.whishlist-account .whishlist {
+margin-right:20px;
+}
+.whishlist-account .whishlist i {
+    margin-right: 15px;
+}
+.whishlist-account .account i {
+    margin-right: 15px;
+}
+.welcome-number .number {
+margin-left: 15px;
+
+}
+.welcome-number .number i {
+    margin-right: 15px;
+}
+
+.hr-one{
+    margin-top: -1px;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav i{
+    font-size: 30px;
+    color: #ddd;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 1px;
+    font-size: 16px;
+    border: none;
+    background: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+  
+  #menu-pre{
+    display: none;
+  }
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.div-icon{
+    margin-left: px;
+}
+.div-icon i{
+    margin: 0 15px;
+    font-size:25px ;
+}
+
+.dropbtn a{
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  .dropbtn :hover{
+    color: #fff;
+  }
+
+
+  .icon-menu{
+    font-size: 14px !important;
+    color: #fff !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.bring{
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 800px;
+    width: 500px;
+    height: 500px;
+    color: #ffffff;
+    background-color:rgba(204, 57, 57, 0.745);
+    border-radius: 50%;
+}
+.bring-h{
+    font-size: 24px;
+    padding-top: 85px;
+    font-weight: 500;
+}
+
+.chris-h2{
+    font-weight: 400;
+    font-size: 45px;
+        font-weight: 500;
+        margin-left: 0;
+
+}
+
+.sale-h3{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.shop-b{
+background-color: #fff;
+    color: #ff6456;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    padding: 10px 29px;
+   border: none;
+   line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+
+.shop-b:hover{
+    color: black;
+}
+
+.gift-box{
+    overflow: hidden;
+}
+.gochoco{
+    overflow: auto;
+}
+
+.gift-gocho{
+    
+display: flex;
+flex-wrap: wrap;
+/* gap: 5px; */
+justify-content: space-evenly;
+box-sizing: border-box;
+margin-top:30px;
+width: 100%;
+overflow: hidden;
+overflow-clip-margin: content-box;
+
+}
+
+
+.gift-box img{
+   width: 100%;
+    vertical-align: middle;
+
+}
+.col-md-6{
+    overflow: auto;
+    /* box-sizing: border-box; */
+    overflow: inherit;
+}
+
+
+.gift-box img:hover{
+transform: scale(1.1);
+/* overflow: hidden; */
+transition: 1s;
+
+}
+.gochoco img:hover{
+transform: scale(1.1);
+transition: 1s;
+}
+
+.gift-box img:hover .chirs-box2{
+    z-index: 100;
+}
+
+.gochoco img:hover  .gochrist{
+    z-index: 100;
+}
+
+
+.gochoco img{
+width: 100%;
+/* padding: 10px; */
+
+}
+
+.chirs-box2{
+    position: absolute;
+    margin: -210px 60px;
+}
+
+.gochrist{
+    position: absolute;
+    margin: -210px 370px;
+    /* text-align: center; */
+    text-align: right;
+
+
+}
+
+
+.chirs-box2, .gochrist{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-bottom: 0;
+
+}
+
+.gift-box{
+    font-size: calc(24px + 16*(100vw - 320px)/1600);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-bottom: -6px;
+    
+}
+
+
+
+
+.chocolat{
+    font-size: calc(24px + 16*(100vw - 320px)/1600);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-bottom: -6px;
+
+}
+
+.special{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.special-off{
+    color: #ff4f3b;
+    font-size: 18px;
+}
+
+.top-col{
+    font-size: 36px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+}
+
+
+.hr-2{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #ff4f3b;
+    opacity: 1;
+    color: inherit;
+    border: 0;
+  }
+
+
+  .col-icon{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ff4f3b;
+    color: #fff;
+   width: 100%;
+  }
+
+  .col-icon i{
+
+
+    padding: 0 5px;
+  }
+
+
+
+
+
+  .section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.grid-1{
+    position: relative;
+    width: 23%;
+    margin-left:15px;
+
+}
+
+.outer img, .inner img{
+    width: 100%;
+}
+
+.inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+
+
+.outer:hover .inner{
+display: block;
+
+}
+
+
+.star-one{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.star-color{
+    color: #ff4f3b;
+    font-size: 15px;
+    
+}
+.name-one-co{
+    font-size: 16px;
+    color: #444;
+    font-weight: 700;
+}
+.price-125{
+    font-size: 18px;
+    color: #ff4f3b;
+    font-weight: 600;
+}
+
+
+ /* .new-tree{ */
+    /* position: absolute;
+    /* margin-bottom: 500px; */
+ /* }  */
+ 
+ .santa{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+ }
+ .santa img{
+    width: 100%;
+    height: 90vh;
+ }
+
+
+ .text-santa{
+    position: absolute;
+    left: 500px;
+    bottom: 390px;
+    /* top: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .new-gift{
+    font-size: -webkit-calc(20px + 10*(100vw - 320px)/1600);
+    font-size: calc(20px + 10*(100vw - 320px)/1600); 
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: -15px;
+ }
+
+
+ .endofthe{
+    font-size: -webkit-calc(24px + 46*(100vw - 320px)/1600);
+    font-size: calc(24px + 46*(100vw - 320px)/1600);
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0px;
+ }
+
+
+ .get-extra{
+    font-size: -webkit-calc(18px + 6*(100vw - 320px)/1600);
+    font-size: calc(18px + 6*(100vw - 320px)/1600);
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .07em;
+    /* padding-top: 10px; */
+    margin-bottom: -5px;
+    line-height: 1.3;
+ }
+
+
+ .santa-btn{
+    margin-top: calc(20px + 45*(100vw - 320px)/1600);
+    cursor: pointer;
+    padding: 13px 29px;
+    color: #fff;
+    letter-spacing: .05em;
+    border: 2px solid var(--theme-deafult);
+    /* background-size: 540px; */
+    background-repeat: no-repeat;
+    background-color: #ff4f3b;
+    border: 2px solid #ff4f3b;
+    border-radius: 5px;
+    
+ }
+
+
+ .santa-btn:hover{
+    background-color: #ddd;
+    color: black;
+
+ }
+
+
+.santa-animation{
+    width: 343px;
+    height: 455px;
+    position: absolute;
+    top: 290px;
+    left: 40px;
+
+
+}
+
+
+@keyframes santa-animation {
+    from {    transform: rotate(25deg);
+    }
+    to {    transform: rotate(-25deg);
+    }
+  }
+
+
+
+ .santa-animation {
+    
+    animation-name: santa-animation;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+
+    
+
+}
+.santa-animation img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.send-love{
+
+background-image: url("https://multikart-react.vercel.app/_next/static/images/2-a6a6519583be5d97d541e2bbb85371c4.jpg");
+background-size: cover;
+    background-position: center center;
+    display: block;
+    width: 100%;
+    height: 85vh;
+
+}
+
+
+
+.snow-animation{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-left:  50px;
+}
+.snow-ani-1{
+    left: 30px;
+}
+
+.snow-ani-2{
+    right: 30px;
+}
+.snow-ani{
+
+    position: absolute;
+}
+
+@keyframes snow-animation {
+    0%   {top: 0px;}
+    50%  {top: 30px;}
+    100% {top: 0px;}
+  }
+
+
+
+ .snow-ani {
+    
+    animation-name: snow-animation;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;    
+
+}
+
+
+
+
+.gift-your
+{
+
+    text-align: center;
+    color: #fff;
+    margin-bottom: 180px;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pine-tree{
+    text-align: center;
+    margin-top: -180px;
+}
+
+
+.flower-flex{
+    width: 30%;
+    display: flex;
+    /* flex-direction: column; */
+    padding-bottom: 20px;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+
+}
+ .flower-img{
+width: 100%;
+text-align: center;
+}
+.flower-img-1{
+    margin-right: -90px;
+}
+
+.flower-img-3{
+    margin-right: 70px ;
+}
+
+.flower-box{
+    margin-top: -500px;
+    /* margin-left: px; */
+}
+
+.flower-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2efee;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 100%;
+    width: 100px;
+    height:100px;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;}
+
+.flower-img img:hover{
+    background-color: #ddd;
+    transform: scale(1.5);
+    /* transform: rotate(20deg); */
+    /* transition: 2s; */
+}
+
+
+.flower-text {
+    text-align: right;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.photo-text{
+    text-align: left;
+    margin-left: 10px;
+    color: #fff; 
+}
+
+
+ 
+
+.photo-img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f3eeee;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    padding: 8px;
+
+}
+
+.photo-img img:hover{
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.4);
+}
+
+
+
+.photo-box{
+    padding-bottom: 20px;
+
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+.photo-frame
+{
+    position: absolute;
+    left: 1100px;
+    bottom: 22px;
+}
+
+
+.send-love{
+    position: relative;
+}
+
+.photo-img-1{
+    margin-left: -90px;
+}
+
+.photo-img-3{
+    margin-left: 40px ;
+    width: 28%;
+}
+
+
+.top-category{
+    margin-top: 110px;
+}
+
+
+.top-cat{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.top-cat p{
+    padding: 0 30px;
+    font-size: 18px;
+
+}
+
+
+
+.from-box{
+    margin-top: 50px;
+    width: 100%;
+    height: 80vh;
+    background-color: #f5f5f5;
+}
+
+.from-box h2{
+    font-size: 36px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+    padding-left:  60px;
+    padding-top:  30px;
+}
+
+
+
+.from-photo-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.from-photo{
+    margin:0 30px;
+    margin-left: 60px;
+    width: 18%;
+    text-align: center;
+
+}
+
+.from-photo img{
+    width: 100%;
+    height: auto;
+}
+
+
+.from-photo img:hover{
+    color: #ff4c3b;
+    z-index: 1;
+}
+
+.from-photo h4{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff4c3b;
+}
+
+.from-photo h6{
+    color: #222;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.from-photo p{
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+
+
+.mark-jecno{
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 3px solid #ffa69d;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mark-jecno h3{
+    margin-bottom: 0;
+    color: #ff4c3b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.mark-jecno h5{
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #555;
+    font-size: 16px;
+}
+
+.mark-jecno p{
+    font-size: 14px;
+    color: #777;
+    margin-top: 30px;
+}
+
+.santa-mark{
+    position: absolute;
+    right: 0;
+}
+
+
+
+.jenco-photo{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+
+
+}
+
+.jenco-photo img{
+    width: 100%;
+    border-radius: 100%;
+    padding: 2px;
+    outline: 2px solid rgb(180, 180, 180);
+}
+
+.insta1{
+    font-size: 32px;
+    color: #222;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+    text-align: center;
+}
+
+
+.insatgram{
+    display: flex;
+    width: 100%;
+}
+
+.insat-photo{
+    width: 14.285%;
+}
+
+.insat-photo img{
+    width: 100%;
+}
+
+
+.platinum-box{
+    margin-top: 80px;
+    display: flex;
+   
+}
+.plat{
+    opacity: 0.6;
+}
+
+.plat:hover{
+    opacity: 1;
+}
+
+
+.fa-up{
+    background-color: #ff4c3b;
+    color: #f1f1f1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+   
+}
+
+
+.fa-up a{
+    color: #f5f5f5;
+} 
+
+.footer{
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://multikart-react.vercel.app/assets/images/christmas/footer-bg.jpg");
+    margin-top: 85px;
+}
+
+
+.footer-first{
+    padding: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.know-it h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    
+}
+.know-it p{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .03em;
+}
+
+
+.tomail{
+    padding: 15px;
+    padding-right: 180px;
+    border: 3px solid rgb(7, 7, 67);
+}
+
+.subscri{
+    margin-left: 10px;
+    padding: 15px 40px;
+    background-color: #ff4c3b;
+    color: rgb(249, 248, 248);
+    border: none;
+}
+
+
+.hr-3{
+
+    color: #fff;
+    height: 4rem;
+    width: 0.1rem;
+    background-color: #fff;
+    margin-top: -5px;
+     opacity: 1;
+    rotate: (90deg);
+    border: none;
+}
+
+
+
+
+.hr-4{
+   
+    height: 0.1rem;
+    max-width: 81rem;
+    margin: -25px auto;
+    background-color: #fff;
+    opacity: 1;
+    /* color: inherit; */
+    border: none;
+
+}
+
+.logo-box{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+}
+
+
+.logo-box h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo-box p{
+    font-size: 14px;
+}
+
+
+.logo-foot{
+    width: 32%;
+    margin-right: 100px;
+}
+
+.logo-foot img, .logo-box h1 {
+    margin-bottom: 50px;
+}
+
+
+.box-foot{
+    width: 20%;
+}
+
+.foot-icon{
+    margin-top: 50px;
+}
+
+.foot-icon i{
+    padding-right:  35px;
+    font-size: 20px;
+}
+
+
+.foot-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 70px;
+    padding:0 100px;
+}
+
+.bank-card{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:768px){
+    .pre-navbar{
+        display: none;
+    }
+
+    #chirsmas{
+        width: 100%;
+        height: 32vh;
+        background-size: 100% 100%;
+    }
+
+    .dleate{
+        display: none;
+    }
+
+ 
+
+
+
+    #menu-pre  {
+        display: block;
+        /* margin-right: 30px; */
+    } 
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top:40px;
+        right: -1px;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .div-icon{
+      display: none;
+    }
+
+    .nav img{
+       margin-left: 0px;
+    }
+
+
+
+
+    .bring{
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 200px;
+        width: 180px;
+        height: 180px;
+        color: #ffffff;
+        background-color:rgb(204,57,58);
+        border-radius: 50%;
+    }
+
+
+    .bring-h{
+        font-size: 17px;
+        padding-top: 22px;
+        font-weight: 500;
+    }
+    
+    .chris-h2{
+        padding-top: 0px;
+        font-weight: 400;
+        font-size: 19px;
+            font-weight: 500;
+            margin-left: 0;
+    
+    }
+    
+    .sale-h3{
+        padding-top: 0;
+        font-size: 20px;
+        font-weight: 700;
+    
+    }
+    
+    .shop-b{
+    background-color: #fff;
+        color: #ff6556;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+        padding: 5px 12px;
+       border: none;
+       line-height: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+    
+    }
+    
+.upto50{
+   display: none;
+}
+
+
+
+
+
+
+
+.gift-gocho{
+    /* display: flex; */
+    box-sizing: border-box;
+    margin-top:30px;
+    width: 100%;
+    }
+   
+    .gift-box{
+        width: 100%;
+    }
+    .gochoco{
+        width: 100%;
+    }
+    
+    .gift-box img{
+       width: 100%;
+       padding: 10px;
+    
+    }
+    
+    .gochoco img{
+    width: 100%;
+    padding: 10px;
+    
+    }
+    
+    
+
+
+    .chirs-box2{
+        background-color: rgba(0, 0, 0, 0.24);
+        width: 200px;
+        height: 90px;
+        position: absolute;
+        margin: -130px 40px;
+        text-align: center;
+        padding-top:15px ;
+    }
+    
+    .gochrist{
+        background-color: rgba(0, 0, 0, 0.24);
+        width: 200px;
+        height: 90px;
+        position: absolute;
+        margin: -130px 150px;
+        text-align: center;
+        padding-top:15px ;
+    
+
+
+
+  }
+
+
+
+  .grid-1{
+    position: relative;
+    width: 40%;
+    margin-left:15px;
+
+
+
+
+
+}
+
+
+
+
+
+.col-icon{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ff4f3b;
+    color: #fff;
+   width: 100%;
+  }
+
+
+
+
+.top-col{
+    font-size: 25px;
+}
+
+
+
+
+.santa img{
+    width: 100%;
+    height: 28vh;
+ }
+
+
+
+ .text-santa{
+    background-color: rgba(188, 177, 177, 0.389);
+    position: absolute;
+    left: 40px;
+    bottom: 600px;
+    width: 70%;
+    /* top: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+
+
+ .santa-btn{
+    margin-bottom: 10px ;
+    cursor: pointer;
+    padding: 4px ;
+    color: #fff;
+    letter-spacing: 2px;
+    
+ }
+
+
+
+ .santa-animation{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+
+
+}
+
+
+
+
+@keyframes santa-animation {
+    from {    transform: rotate(15deg);
+    }
+    to {    transform: rotate(-15deg);
+    }
+  }
+
+
+
+ .santa-animation {
+    
+    animation-name: santa-animation;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+
+    
+
+}
+.santa-animation img{
+    width: 70px;
+    height: 100px;
+    
+}
+
+
+
+.exculusive-title{
+    margin-top: -490px;
+}
+
+
+.gift-your,  .snow-ani, .pine-tree
+{
+    display: none;
+}
+
+
+.send-love{
+    width: 100%;
+}
+.lower-box{
+    width: 100%;
+}
+
+
+
+.flower-flex{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    padding-bottom: 40px;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+
+
+.flower-box{
+    margin-top: 40px;
+}
+
+.flower-img{
+    position: absolute;
+    width: 21%;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2efee;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 100%;
+    width: 90px;
+    height:90px;
+    text-align: center;
+    overflow: hidden;
+    padding: 1px;
+
+}
+
+.flower-img img:hover{
+    background-color: #ddd;
+    transform: scale(1.5);
+    /* transform: rotate(20deg); */
+    transition: 1s;
+}
+
+
+.flower-text{
+    
+    width: 90%;
+    text-align: end;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.photo-text{
+    width: 90%;
+    text-align: end;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+ 
+
+.photo-img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f3eeee;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    overflow: hidden;
+    padding: 8px;
+
+}
+
+.photo-img img:hover{
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.4);
+}
+
+
+
+.photo-box{
+    padding-bottom: 20px;
+
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+.photo-frame
+{
+    position: absolute;
+    left: 10px;
+    bottom: 22px;
+}
+
+
+.send-love{
+    position: relative;
+}
+
+.photo-img-1{
+    margin-left: 0px;
+    width: 34%;
+}
+.photo-img-2{
+    width: 34%;
+}
+
+.photo-img-3{
+    margin-left: 0px ;
+    width:34%;
+}
+
+
+.photo-frame{
+    top:360px;
+}
+
+
+
+.top-category{
+    margin-top: 60px;
+}
+
+
+.top-cat p{
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+
+.santa-mark, .from-photo-mob{
+    display: none;
+}
+
+
+
+
+.from-photo{
+    width: 90%;
+}
+
+.mark-jecno{
+    width: 90%;
+}
+
+
+
+
+.from-box h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.from-photo p{
+    margin-bottom: 50px;
+}
+
+.from-box {
+    height: 110vh;
+}
+
+
+.insat-photo{
+    width: 33%;
+}
+
+
+
+.insat-photo img{
+    width: 100%;
+}
+
+.insta-ph{
+    display: none;
+}
+
+
+.plat-none{
+    display: none;
+}
+
+.footer-first{
+    text-align: center;
+}
+
+.footer-first p{
+    display: none;
+}
+
+.know-it h4{
+    text-align: center;
+    
+}
+
+.tomail{
+    margin-top: 20px;
+    padding: 15px;
+    padding-right: 80px;
+    border: 3px solid rgb(7, 7, 67);
+}
+
+
+.subscri{
+    /* margin-left: 10px; */
+    padding: 10px 30px;
+    background-color: #ff4c3b;
+    color: rgb(249, 248, 248);
+    border: none;
+}
+
+.hr-3{
+    display: none;
+}
+
+.logo-foot{
+    align-items: center;
+}
+
+
+
+.box-foot, .logo-foot{
+    width: 100%;
+}
+
+
+
+.footer{
+    height: 180vh;
+    text-align: center;
+}
+
+.foot-icon i{
+    padding-right:  25px;
+    font-size: 20px;
+}
+
+
+
+.box-foot h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.copy{
+    width: 100%;
+    margin:0 ;
+    padding: 0;
+}
+
+
+
+
+
+.foot-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 50px;
+    padding:0 ;
+}
+
+
+
+.bank-card{
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+}
+
+.bank-cards{
+    padding: 0 20px;
+}
+
+
+}
