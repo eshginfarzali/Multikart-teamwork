@@ -27,6 +27,16 @@
   letter-spacing: 0.8px;
 }
 
+.dleate a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.dleate a:hover{
+  color: inherit;
+}
+
+
 .welcome-number {
   display: flex;
   align-items: center;
@@ -62,10 +72,13 @@
   justify-content: space-around;
 }
 
+
 .nav i {
   font-size: 30px;
   color: #ddd;
 }
+
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -123,10 +136,14 @@
 .show {
   display: block;
 }
-
-.div-icon {
-  margin-left: px;
+button .fa-angle-down{
+  font-size: 17px;
+  color: #fff;
 }
+
+/* .div-icon {
+  margin-left: px;
+} */
 .div-icon i {
   margin: 0 15px;
   font-size: 25px;
@@ -971,18 +988,6 @@
 .bank-card {
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
   .pre-navbar {
