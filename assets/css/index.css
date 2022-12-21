@@ -101,8 +101,6 @@ margin-left: 15px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-
-  
   
   /* Links inside the dropdown */
   .dropdown-content a {
@@ -138,33 +136,6 @@ margin-left: 15px;
     margin: 0 15px;
     font-size:25px ;
 }
-
-.dropbtn a{
-    font-weight: 400;
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-  }
-  .dropbtn :hover{
-    color: #fff;
-  }
-
-
-  .icon-menu{
-    font-size: 14px !important;
-    color: #fff !important;
-  }
-
-
-
-
-
-
-
-
-
-
 
 .bring{
     align-items: center;
@@ -776,12 +747,17 @@ justify-content: center;
 
 
 .from-photo-box{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+.from-img{
+    overflow: hidden;
+}
 
 .from-photo{
+    overflow: hidden;
     margin:0 30px;
     margin-left: 60px;
     width: 18%;
@@ -794,10 +770,20 @@ justify-content: center;
     height: auto;
 }
 
+.form-rotate{
+    position: absolute;
+    /* left: 0; */
+    top:0;
+    opacity:0 ;
 
-.from-photo img:hover{
-    color: #ff4c3b;
-    z-index: 1;
+    width: 18%;
+    height: 156px;
+    background-color: #ff4b3b49;
+}
+
+.from-photo:hover .form-rotate{
+    opacity: 1;
+
 }
 
 .from-photo h4{
@@ -891,13 +877,48 @@ justify-content: center;
 
 
 .insatgram{
+    position: relative;
     display: flex;
     width: 100%;
+    overflow: hidden;
 }
 
 .insat-photo{
     width: 14.285%;
+    height: 250px;
+    z-index: 0;
+    overflow: hidden;
 }
+
+.insat-photo:hover .insta-rotate{
+    top: 0;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+
+}
+.insta-rotate img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+    top: 200px;
+}
+
+
+.insta-rotate{
+    position: absolute;
+    top: -250px;
+    width: 14.28%;
+    height: 218px;
+    background-color: #ff4b3b5a;
+    z-index: 100;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
 
 .insat-photo img{
     width: 100%;
@@ -979,7 +1000,9 @@ justify-content: center;
     color: rgb(249, 248, 248);
     border: none;
 }
-
+.subscri:hover{
+    background-color:rgba(185, 67, 67, 0.555);
+}
 
 .hr-3{
 
@@ -1532,7 +1555,15 @@ justify-content: center;
 }
 
 
+.form-rotate{
+    position: absolute;
+    top:0;
+    opacity:0 ;
 
+    width: 75.3%;
+    height: 160px;
+    background-color: #ff4b3b49;
+}
 
 .from-photo{
     width: 90%;
@@ -1573,6 +1604,38 @@ justify-content: center;
 .insta-ph{
     display: none;
 }
+
+
+.insat-photo:hover .insta-rotate{
+    top: 0;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+
+}
+.insta-rotate img{
+    width: 50px;
+    height: 129.2px;
+    opacity: 0.2;
+    top: 200px;
+}
+
+
+.insta-rotate{
+    position: absolute;
+    top: -250px;
+    width: 33%;
+    height: auto;
+    background-color: #ff4b3b5a;
+    z-index: 100;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 .plat-none{
@@ -1647,6 +1710,7 @@ justify-content: center;
     width: 100%;
     margin:0 ;
     padding: 0;
+    
 }
 
 
