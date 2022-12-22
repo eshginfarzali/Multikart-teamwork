@@ -1,4 +1,834 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  .div-general {
+    width: 100%;
+    overflow: hidden;
+  }
+  .pre-navbar {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-phone {
+    color: red;
+  }
+  .fa-heart:hover {
+  color: red;
+  }
+  .fa-user:hover {
+    color: red;
+  }
+  .welcome-number {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  
+  }
+  .whishlist-account {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+  }
+  .whishlist-account .whishlist {
+  margin-right:20px;
+  }
+  .whishlist-account .whishlist i {
+    margin-right: 15px;
+  }
+  .whishlist-account .account i {
+    margin-right: 15px;
+  }
+  .welcome-number .number {
+  margin-left: 15px;
+  
+  }
+  .welcome-number .number i {
+    margin-right: 15px;
+  }
+  .navbar {
+    width:100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .hidden-div {
+    display: none;
+  }
+  .bar-not-bigsc {
+    display: none;
+  }
+  .fa-xmark {
+    display: none;
+  }
+  .search-settings {
+    display: flex;
+    margin-right: 60px ;
+  }
+  .search-settings i {
+    margin-right: 15px;
+  }
+  .nav-list {
+    display:flex;
+  }
+  .nav-list-inside-container {
+    display: flex;
+  }
+  .menubar {
+    margin-left: 60px;
+  }
+  .menubar img {
+    margin-left: 40px;
+  }
+  .menubar i {
+    font-size: 25px;
+  }
+  .nav-list div {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  /* .nav-list .home {
+    margin-right: 30px;
+  } */
+  /* .nav-list .shop {
+    margin-right: 30px;
+  } */
+  
+  .btn-secondary {
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+  
+  }
+  
+  .dropdown:hover .dropdown-menu {
+        display: block !important;
+        margin-top: 0 !important;
+  
+  }
+  .dropdown .settings {
+  font-size: 25px;
+  }
+  .search-settings .search {
+    text-decoration: none;
+   
+  }
+  .search-settings .search a {
+    color: black;
+    font-size: 25px;
+  }
+  .dropdown .basket {
+    font-size: 25px;
+  }
+  .collection-line {
+    width: 100%;
+    height: 110px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .collection-line .collection {
+    margin-left: 60px;
+  }
+  .collection-line .home-collection {
+    margin-right: 60px;
+  }
+  .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img{
+    width: 67%;
+    height: 240px;
+    margin-left: 60px;
+    background-image: url(https://multikart-react.vercel.app/_next/static/images/2-beb8795ec9decb581e91c6b47f6882ec.jpg);
+    background-size: cover;
+    margin-top: 70px;;
+  }
+  
+  .text {
+    position: absolute;
+    display: block;
+    width: 67%;
+    margin-left: 60px;
+  }
+  .t1 {
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  .t2 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  .t3 {
+    margin-top: 15px;
+    color: #777777;
+  }
+  .products {
+    width: 67%;
+    height: 150vh;
+    margin-left: 60px;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pr1 {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+  }
+  .pr1image {
+    width: 175px;
+    height: 290px;
+    background-image: url(https://multikart-react.vercel.app/assets/images/pro3/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .checked {
+    color: orange;
+  }
+  .gray {
+    color: #05040433;
+  }
+  .name {
+    color: #777777;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .newprice {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .oldprice{
+      color: #777777;
+      margin-top: 5px;
+  }
+  .price{
+      display:flex;
+      flex-direction: row;
+      
+  }
+  .pr2 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr2image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/8.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name2 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice2 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice2{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price2{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr3 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr3image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/23.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name3 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice3 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice3{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price3{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr4 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr4image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/39.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name4 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice4 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice4{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price4{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr5 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr5image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/22.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name5 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice5 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice5{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price5{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr6 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr6image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/7.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name6 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice6 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice6{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price6{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr7 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr7image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/12.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name7 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice7 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice7{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price7{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .pr8 {
+      width: 200px;
+      height: 400px;
+      background-color: white;
+    }
+    .pr8image {
+      width: 175px;
+      height: 290px;
+      background-image: url(https://multikart-react.vercel.app/assets/images/pro3/11.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .checked {
+      color: orange;
+    }
+    .gray {
+      color: #05040433;
+    }
+    .name8 {
+      color: #777777;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .newprice8 {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .oldprice8{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .price8{
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .load{
+      background-color: #e61717;
+      margin: auto;
+    }
+    .load button{
+      background-color: #6c757d;
+      font-size: 14px;
+      padding: 10px 15px;
+      border: none;
+      color: white;
+      font-weight: 600;
+      transition-duration: 1s;
+      cursor: pointer;
+    }
+    .load button:hover{
+      background-color: #4b4c50
+    }
+    .home{
+      cursor: pointer;
+    }
+    .footer{
+      width: 100%;
+      height: 75vh;
+      background-color: #F9F9F9;
+      margin-top: 85px;
+      
+  }
+  
+  
+  .footer-first{
+      padding: 35px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+  }
+  .know-it h4{
+      font-weight: 700;
+      font-size: 18px;
+      margin-left: 60px;
+      color: black;
+      
+  }
+  .know-it p{
+      
+      font-size: 14px;
+      letter-spacing: .03em;
+      color: black;
+      margin-left: 60px;
+  }
+  
+  
+  .tomail{
+      padding: 15px;
+      border: none;
+  }
+  
+  .subscri{
+      margin-left: 10px;
+      padding: 15px 40px;
+      background-color: #ff4c3b;
+      color: rgb(249, 248, 248);
+      border: none;
+      font-weight: 700;
+      margin-right: 60px;
+      
+  }
+  .subscri:hover{
+      background-color:rgba(185, 67, 67, 0.555);
+      color: black;
+  }
+  
+  .hr-3{
+    margin: 20px;
+      color:#777777;
+      width: 1px;
+      height: 100px;
+      background-color: #777777;
+      /* margin-top: -5px; */
+      opacity: 1;
+      /* rotate: (90deg); */
+      border: none
+  }
+  
+  
+  
+  
+  .hr-4{
+     
+      height: 1px;
+      max-width: 81rem;
+      margin: -25px auto;
+      background-color: #777777;
+      opacity: 1;
+      /* color: inherit; */
+      border: none;
+  
+  }
+  
+  .logo-box{
+      margin-top: 80px;
+      margin-left: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: black;
+      width: 100%;
+  }
+  
+  
+  .logo-box h1{
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  .logo-box p{
+      font-size: 14px;
+  }
+  
+  
+  .logo-foot{
+      width: 32%;
+      margin-right: 80px;
+  }
+  
+  .logo-foot img, .logo-box h1 {
+      margin-bottom: 50px;
+  }
+  
+  
+  .box-foot{
+      width: 20%;
+  }
+  
+  .foot-icon{
+    margin-top: 50px;
+  }
+  
+  .foot-icon i{
+      padding-right:  35px;
+      font-size: 20px;
+  }
+  
+  
+  .foot-foot{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      color: black;
+      /* margin-top: 70px; */
+      padding:0 100px;
+      background-color: #FFFFFF;
+      height: 70px;
+  }
+  
+  .bank-card{
+      display: flex;
+  }
+  .accordion{
+    width: 250px;
+    margin-top: 70px;
+    margin-right: 60px;
+  }
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width:768px) {
+    .navbar {
+      position: relative;
+      height: 80px;
+     }
+      .bar-not-bigsc {
+          display: block;
+          color: red;
+          font-size: 25px;
+          margin-bottom: 10px;
+          margin-right: 10px;
+      }
+      .menubar {
+        margin-left: 10px;
+       
+      }
+      .menubar img {
+        margin-left: 75px;
+    }
+   
+      /* .fa-xmark {
+          display: block;
+      } */
+      .search-settings {
+         
+          right: 5px;
+          margin-right: 4px;
+          display: none;
+      }
+      .dropdown .basket, .search-settings .search a, .dropdown .settings {
+          font-size: 20px;
+          display: none;
+      }
+   
+   
+    .nav-list  {
+           
+      position: absolute;
+      background-color: white;
+      height: 300px;
+      width: 100px;
+      top:10px;
+      right:-800px;
+      text-align: left;
+      transition: 1s;
+      color: black;
+      z-index: 1;
+     
+  }
+  .nav-list-inside-container {
+      display: flex;
+      flex-direction: column;
+      width: 160px;
+      background-color: white;
+     
+  }
+  .hidden-div {
+      display: block;
+  }
+  .accordion{
+    display: none;
+  }
+  
+  .products {
+    margin-top: 600px;
+  }
+  .footer {
+    margin-top: 2100px;
+  }
+  .footer-first{
+    text-align: center;
+  
+  }
+   
+  .footer-first p{
+    display: none;
+  }
+   
+  .know-it h4{
+    text-align: center;
+   
+  }
+   
+  .tomail{
+    margin-top: 20px;
+    padding: 15px;
+    padding-right: 80px;
+    border: 3px solid rgb(7, 7, 67);
+  }
+   
+   
+  .subscri{
+    /* margin-left: 10px; */
+    padding: 10px 30px;
+    background-color: #ff4c3b;
+    color: rgb(249, 248, 248);
+    border: none;
+  }
+   
+  .hr-3{
+    display: none;
+  }
+   
+  .logo-foot{
+    align-items: center;
+  }
+   
+   
+   
+  .box-foot, .logo-foot{
+    width: 100%;
+  }
+   
+   
+   
+  .footer{
+    height: 180vh;
+    text-align: center;
+  }
+   
+  .foot-icon i{
+    padding-right:  25px;
+    font-size: 20px;
+  }
+   
+   
+   
+  .box-foot h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+   
+   
+  .copy{
+    width: 100%;
+    margin:0 ;
+    padding: 0;
+  }
+   
+   
+   
+   
+   
+  .foot-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 50px;
+    padding:0 ;
+  }
+   
+   
+   
+  .bank-card{
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 40px;
+   
+  }
+   
+  .bank-cards{
+    padding: 0 20px;
+  }
+  .pre-navbar{
+    display: none;
+  }
+    
+  }
+  
+  
