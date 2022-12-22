@@ -1,4 +1,704 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    background: #fff;  
+    line-height: 1.5;
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+p {
+    opacity: 0.6;
+}
+
+.navbar {
+    width:100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hidden-div {
+    display: none;
+}
+.bar-not-bigsc {
+    display: none;
+}
+.fa-xmark {
+    display: none;
+}
+.search-settings {
+    display: flex;
+    margin-right: 60px ;
+}
+.search-settings i {
+    margin-right: 15px;
+}
+.nav-list {
+    display:flex;
+}
+.nav-list-inside-container {
+    display: flex;
+}
+.menubar {
+    margin-left: 60px;
+}
+.menubar img {
+    margin-left: 40px;
+}
+.menubar i {
+    font-size: 25px;
+}
+.nav-list div {
+    font-size: 16px;
+    margin: 0 10px;
+}
+/* .nav-list .home {
+    margin-right: 30px;
+} */
+/* .nav-list .shop {
+    margin-right: 30px;
+} */
+ 
+.btn-secondary {
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+ 
+}
+ 
+.dropdown:hover .dropdown-menu {
+        display: block !important;
+        margin-top: 0 !important;
+ 
+}
+.dropdown .settings {
+font-size: 25px;
+}
+.search-settings .search {
+    text-decoration: none;
+   
+}
+.search-settings .search a {
+    color: black;
+    font-size: 25px;
+}
+.dropdown .basket {
+    font-size: 25px;
+}
+
+/* .navbar {
+    padding: 0 78px;
+    margin: 90px 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+}
+
+
+.bar-style {
+    display: flex;
+    float: left;
+   margin: 10px 30px;
+
+}
+
+
+.multi-img {
+    float: left;
+    display: flex;
+    margin: 0 30px;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+    padding: 5px 5px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    
+}
+
+.fa-angle-down {
+    padding-left: 10px;
+}
+
+.menu-right {
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+
+.settings {
+    padding: 0 20px;
+} */
+
+.center-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    align-items: center;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.blog {
+    display: flex;
+    float: left;
+    justify-content: start;
+    padding-left: 100px;
+    background-color: inherit;
+    font-size: 16px;
+}
+
+
+
+
+.blog-detail ul {
+    display: flex;
+    justify-content:flex-end ;
+    padding: 0 126px;
+    background-color: #F8F8F8;
+}
+
+.blog-detail ul li {
+    list-style: none;
+    background-color: #F8F8F8;
+    padding-right: 10px;
+}
+
+.blog-detail
+{
+    background-color: inherit;
+}
+
+.drop {
+    padding: 0 8px;
+}
+
+a:visited {
+    color: black;
+}
+
+.foto-img1 {
+    display: block;
+    margin-top: 64px;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 85%;
+}
+
+.foto-img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.wo-fash {
+    margin: 30px 100px;
+    width: 80%;
+    height: 100%;
+}
+
+h2 .electronic {
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.admin {
+  margin: 15px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.post-social {
+    letter-spacing: 2px;
+    padding: 0 5px;
+    border-right: 1px solid black
+}
+
+.post-social2 {
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.wo-fash hr {
+    
+    width: 1145px;
+}
+
+.paratext1 {
+    margin: 10px 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.foto-img-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.foto-img2 {
+    width: 42%;
+    height: auto;
+    margin-left: -100px;
+}
+
+.foto-img2 img {
+    width: 100%;
+    height: auto;
+}
+
+.list-element1 {
+    margin: 30px;
+}
+
+
+.list-element1 li {
+    
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    opacity: 0.8;
+    margin-left: -10px;
+}
+
+.para2 {
+    margin: 30px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+hr {
+    margin-left: 95px;
+    margin-top: 30px;
+    width: 86%;
+}
+
+
+
+.markjenco-box {
+    width: 90%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 80px;
+}
+
+.markjenco-box h1 {
+    font-size: 14px;
+}
+
+.markjenco-box span {
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.markjenco-1 {
+
+    width: 10%;
+}
+
+.markjenco-1 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.markjenco-text {
+    width: 140%;
+    padding-left: 0px;
+}
+
+
+.leave-comment  {
+    width: 100%;
+    height: 80vh;
+    margin: 30px 90px;
+ 
+}
+
+.leave-comment h1 {
+    margin-bottom: 20px;
+}
+
+.leave-comment input {
+    
+    margin-bottom: 30px;
+    font-size: 16px;
+    border: 1px solid grey;
+    
+}
+
+
+.label-comment label {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#w3review {
+    padding: 20px;
+}
+
+.label-input {
+    width: 89%;
+    height: 60px;
+    padding: 20px;
+}
+
+.button {
+    width: 12%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #f65454;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    border: 2px solid red;
+}
+
+
+.footer{
+    width: 100%;
+    height: 75vh;
+    background-color: inherit;
+    margin-top: 85px;
+   
+}
+ 
+ 
+.footer-first{
+    padding: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.know-it h4{
+    font-weight: 700;
+    font-size: 18px;
+   
+    color: black;
+   
+}
+
+.know-it {
+    margin-right: 120px;
+}
+.know-it p{
+   
+    font-size: 14px;
+    letter-spacing: .03em;
+    color: black;
+}
+ 
+ 
+.tomail{
+    padding: 15px;
+    padding-right: 180px;
+    border: 3px solid rgb(7, 7, 67);
+}
+ 
+.subscri{
+    margin-left: 10px;
+    padding: 15px 40px;
+    background-color: #ff4c3b;
+    color: rgb(249, 248, 248);
+    border: none;
+   
+}
+.subscri:hover{
+    background-color:rgba(185, 67, 67, 0.555);
+    color: black;
+}
+ 
+.hr-3{
+  margin: 20px;
+    color: black;
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    /* margin-top: -5px; */
+    opacity: 1;
+    /* rotate: (90deg); */
+    border: 1px solid black;
+}
+ 
+ 
+ 
+ 
+.hr-4{
+   
+    height: 0.1rem;
+    
+    margin: -25px auto;
+    
+    opacity: 0.3;
+    /* color: inherit; */
+    border: none;
+ 
+}
+ 
+.logo-box{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+}
+ 
+ 
+.logo-box h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+ 
+.logo-box p{
+    font-size: 14px;
+}
+ 
+ 
+.logo-foot{
+    width: 32%;
+    margin-right: 80px;
+}
+ 
+.logo-foot img, .logo-box h1 {
+    margin-bottom: 50px;
+}
+ 
+ 
+.box-foot{
+    width: 20%;
+}
+ 
+.foot-icon{
+  margin-top: 50px;
+}
+ 
+.foot-icon i{
+    padding-right:  35px;
+    font-size: 20px;
+}
+ 
+ 
+.foot-foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    /* margin-top: 70px; */
+    padding:0 100px;
+    background-color: #FFFFFF;
+    height: 70px;
+}
+ 
+.bank-card{
+    display: flex;
+}
+
+.dropdown a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+        height: 80px;
+       }
+        .bar-not-bigsc {
+            display: block;
+            color: red;
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .menubar {
+          margin-left: 10px;
+         
+        }
+        .menubar img {
+          margin-left: 75px;
+      }
+     
+        /* .fa-xmark {
+            display: block;
+        } */
+        .search-settings {
+           
+            right: 5px;
+            margin-right: 4px;
+            display: none;
+        }
+        .dropdown .basket, .search-settings .search a, .dropdown .settings {
+            font-size: 20px;
+            display: none;
+        }
+     
+     
+      .nav-list  {
+             
+        position: absolute;
+        background-color: white;
+        height: 300px;
+        width: 100px;
+        top:10px;
+        right:-800px;
+        text-align: left;
+        transition: 1s;
+        color: black;
+        z-index: 1;
+       
+    }
+    .nav-list-inside-container {
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        background-color: white;
+       
+    }
+    .hidden-div {
+        display: block;
+    }
+
+    .footer-first{
+        text-align: center;
+      }
+       
+      .footer-first p{
+        display: none;
+      }
+       
+      .know-it h4{
+        text-align: center;
+       
+      }
+       
+      .tomail{
+        margin-top: 20px;
+        padding: 15px;
+        padding-right: 80px;
+        border: 3px solid rgb(7, 7, 67);
+      }
+       
+       
+      .subscri{
+        /* margin-left: 10px; */
+        padding: 10px 30px;
+        background-color: #ff4c3b;
+        color: rgb(249, 248, 248);
+        border: none;
+      }
+       
+      .hr-3{
+        display: none;
+      }
+       
+      .logo-foot{
+        align-items: center;
+      }
+       
+       
+       
+      .box-foot, .logo-foot{
+        width: 100%;
+      }
+       
+       
+       
+      .footer{
+        height: 180vh;
+        text-align: center;
+      }
+       
+      .foot-icon i{
+        padding-right:  25px;
+        font-size: 20px;
+      }
+       
+       
+       
+      .box-foot h1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+       
+       
+      .copy{
+        width: 100%;
+        margin:0 ;
+        padding: 0;
+      }
+       
+       
+       
+       
+       
+      .foot-foot{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: #fff;
+        margin-top: 50px;
+        padding:0 ;
+      }
+       
+       
+       
+      .bank-card{
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 40px;
+       
+      }
+       
+      .bank-cards{
+        padding: 0 20px;
+      }
 }
