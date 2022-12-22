@@ -1,4 +1,600 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.div-general{
+
+width: 100%;
+overflow: hidden;
+
+}
+.pre-navbar {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-number {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+
+}
+.portfolio{
+    background-color: rgb(227, 236, 236);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+width: 80%;
+}
+
+.just-data{
+    width: 100%;
+    display: flex;
+    background-color:#f5f6f7;
+   
+}
+.just{
+    width: 50%;
+    height: 10vh;
+    margin: 50px;
+    padding: 10px 50px;
+ 
+}
+.just h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.just p{
+    font-size: 15px;
+}
+.data{
+    width: 50%;
+    height: 10vh;
+    margin: 50px;
+    padding: 10px 50px;
+}
+.vr{
+  
+    margin-top: 50px;
+    
+    
+}
+
+
+.row{
+    width: 100%;
+   
+}
+.col-a{
+    width: 50%;
+  
+}
+.col-b{
+    width: 50%;
+  
+}
+.col-a input{
+    width: 220px;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-color: none;
+    color: #212529;
+    padding: 10px;
+    
+}
+#staticEmail2{
+    color: #747a80;
+}
+
+.col-b button{
+    background-color: rgba(255, 0, 0, 0.76);
+    width:150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+   
+  
+}
+.col-b button:hover{
+    background-color: #ffffff;
+    color: #212529;
+    border-color: #000000;
+   
+}
+.text-success{
+    background-color: rgb(8, 8, 83);
+    width: 100%;
+    height: 2px;
+}
+
+.ultikart{
+    width: auto;
+    height: auto;
+    
+   
+   
+}
+.footer-section{
+
+    margin: auto;
+    padding: auto;
+}
+.footer-section h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+.footer-section p{
+    font-size: 13px;
+    
+    
+}
+-----
+.navbar {
+    width:100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hidden-div {
+    display: none;
+}
+.bar-not-bigsc {
+    display: none;
+}
+.fa-xmark {
+    display: none;
+}
+.search-settings {
+    display: flex;
+    margin-right: 60px ;
+}
+.search-settings i {
+    margin-right: 15px;
+}
+.nav-list {
+    display:flex;
+}
+.nav-list-inside-container {
+    display: flex;
+}
+.menubar {
+    margin-left: 60px;
+}
+.menubar img {
+    margin-left: 40px;
+}
+.menubar i {
+    font-size: 25px;
+}
+.nav-list div {
+    font-size: 16px;
+    margin: 0 10px;
+}
+/* .nav-list .home {
+    margin-right: 30px;
+} */
+/* .nav-list .shop {
+    margin-right: 30px;
+} */
+ 
+.btn-secondary {
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+ 
+}
+ 
+.dropdown:hover .dropdown-menu {
+        display: block !important;
+        margin-top: 0 !important;
+ 
+}
+.dropdown .settings {
+font-size: 25px;
+}
+.search-settings .search {
+    text-decoration: none;
+   
+}
+.search-settings .search a {
+    color: black;
+    font-size: 25px;
+}
+.dropdown .basket {
+    font-size: 25px;
+}
+----
+
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+    
+}
+
+.list a{
+    width: 20px;
+   list-style: none;
+    text-decoration-line: none;
+    font-size: 24px;
+    color: #111111;
+}
+
+
+.list-div ul{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ 
+}
+
+
+
+
+.photos{
+    width: 100%;
+    
+    
+}
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+}
+
+.left{
+    width: 22%;
+  
+    
+}
+.left-middle{
+    width: 22%;
+}
+.right-middle{
+    width: 22%;
+}
+.right{
+    width: 22%;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    border-style:ridge;
+    
+
+}
+
+.left-middle img{
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    border-style:ridge;
+    
+   
+   
+}
+.right-middle img{
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    border-style:ridge;
+    
+   
+    
+   
+}
+.right img{
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    border-style:ridge;
+   
+    
+   
+   
+}
+.image{
+
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+}
+.image img{
+transform: scale(1);
+}
+.image img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    rotate: 3deg;
+    cursor: pointer;
+}
+
+.just-data{
+    width: 100%;
+    display: flex;
+    background-color:#f5f6f7;
+   
+}
+.just{
+    width: 50%;
+    height: 10vh;
+    margin: 50px;
+    padding: 10px 50px;
+ 
+}
+.just h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.just p{
+    font-size: 15px;
+}
+.data{
+    width: 50%;
+    height: 10vh;
+    margin: 50px;
+    padding: 10px 50px;
+}
+.vr{
+  
+    margin-top: 50px;
+    
+    
+}
+
+
+.row{
+    width: 100%;
+   
+}
+.col-a{
+    width: 50%;
+  
+}
+.col-b{
+    width: 50%;
+  
+}
+.col-a input{
+    width: 220px;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-color: none;
+    color: #212529;
+    padding: 10px;
+    
+}
+#staticEmail2{
+    color: #747a80;
+}
+
+.col-b button{
+    background-color: rgba(255, 0, 0, 0.76);
+    width:150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+   
+  
+}
+.col-b button:hover{
+    background-color: #ffffff;
+    color: #212529;
+    border-color: #000000;
+   
+}
+.text-success{
+    background-color: rgb(8, 8, 83);
+    width: 100%;
+    height: 2px;
+}
+
+.ultikart{
+    width: auto;
+    height: auto;
+    
+   
+   
+}
+.footer-section{
+
+    margin: auto;
+    padding: auto;
+}
+.footer-section h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+}
+.footer-section p{
+    font-size: 13px;
+    
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .pre-navbar .welcome-number {
+        display: none
+    }
+    .pre-navbar {
+        display:flex;
+        justify-content: end;
+        opacity:0.5;
+    }
+   
+   
+}
+
+
+
+@media (max-width: 390px){
+
+
+    .navbar {
+        position: relative;
+        height: 80px;
+       }
+        .bar-not-bigsc {
+            display: block;
+            color: red;
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        .menubar {
+          margin-left: 10px;
+         
+        }
+        .menubar img {
+          margin-left: 75px;
+      }
+     
+        /* .fa-xmark {
+            display: block;
+        } */
+        .search-settings {
+           
+            right: 5px;
+            margin-right: 4px;
+            display: none;
+        }
+        .dropdown .basket, .search-settings .search a, .dropdown .settings {
+            font-size: 20px;
+            display: none;
+        }
+     
+     
+      .nav-list  {
+             
+        position: absolute;
+        background-color: white;
+        height: 300px;
+        width: 100px;
+        top:10px;
+        right:-800px;
+        text-align: left;
+        transition: 1s;
+        color: black;
+        z-index: 1;
+       
+    }
+    .nav-list-inside-container {
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+        background-color: white;
+       
+    }
+    .hidden-div {
+        display: block;
+    }
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.left-middle{
+    width: 100%;
+}
+.right-middle{
+    width: 100%;
+}
+.right{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    }
+    
+    
+.list-div a{
+    font-size: 16px;
+   
+
+}
+    
+.list-div{
+
+   padding: 0;
+   margin-left: -30px;
+
+}
+
+.just-data{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#f5f6f7;
+   
+}
+.vr{
+    display: none;
+}
+.just h3{
+    width: 300%;
+    font-size: 20px;
+    
+}
+.just p{
+    display: none;
+}
+.data{
+    width: 100%;
+    height: 15vh;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-a{
+    margin: 0;
+    
+   
+  
+}
+.col-b{
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
 }
